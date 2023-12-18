@@ -14,7 +14,7 @@ const OfferCard = ({ imageUrl, title, heading, time, description, price }) => {
           <p className="text-gray-700 text-base">{description}</p>
         </div>
         <p className="mb-2 pt-12">{price}</p>
-        <div className=" px-6 pt-4 pb-6">  
+        <div className=" px-6 pt-4 pb-6">
           <button className="px-4 py-2 text-white bg-blue-500 rounded">
             View Details
           </button>

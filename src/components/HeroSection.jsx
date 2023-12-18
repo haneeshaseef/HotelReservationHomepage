@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import hotel_room from "../assets/hotel_room.jpg";
 import bed_room from "../assets/bed_room.jpg";
 import beach_side from "../assets/beach_side.jpg";
-import swiming_pool from "../assets/swiming_pool.jpg"
+import swiming_pool from "../assets/swiming_pool.jpg";
 import SearchBar from "./SearchBar";
 
 const HeroSection = () => {

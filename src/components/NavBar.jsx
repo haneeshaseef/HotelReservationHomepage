@@ -7,7 +7,13 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center">
       <div>
-      <img src={logo} alt="hotel_logo" width="100" height="50" className="ml-12" />
+        <img
+          src={logo}
+          alt="hotel_logo"
+          width="100"
+          height="50"
+          className="ml-12"
+        />
       </div>
       <div className="flex">
         <button className="text-black px-4 py-2 border-r flex items-center">

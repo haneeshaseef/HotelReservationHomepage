@@ -6,24 +6,26 @@ const DestinationSection = () => {
 
   return (
     <div className="w-full h-[660px] px-12 mt-15 flex flex-col items-center mt-20">
-      <label htmlFor="destination" className="block text-blue-800 text-3xl font-bold mb-8">
+      <label
+        htmlFor="destination"
+        className="block text-blue-800 text-3xl font-bold mb-8"
+      >
         Our Destinations
       </label>
       <div className="w-80 mb-8">
-      <select
-        id="destination"
-        name="destination"
-        value={selected}
-        onChange={(e) => setSelected(e.target.value)}
-        className="mt-1 block w-full px-5 py-5 text-base border border-black border-solid focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md mb-1" 
-      >
-        <option>Miracle Mirage Dhonveli Maldives</option>
-        <option> Habarana Village by Miracle Mirage</option>
-        <option>Miracle Mirage Hakuna Huraa Maldives</option>
-        <option>Ellaaidoo Maldives by Miracle Mirage</option>
-        
-      </select>
-    </div>
+        <select
+          id="destination"
+          name="destination"
+          value={selected}
+          onChange={(e) => setSelected(e.target.value)}
+          className="mt-1 block w-full px-5 py-5 text-base border border-black border-solid focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md mb-1"
+        >
+          <option>Miracle Mirage Dhonveli Maldives</option>
+          <option> Habarana Village by Miracle Mirage</option>
+          <option>Miracle Mirage Hakuna Huraa Maldives</option>
+          <option>Ellaaidoo Maldives by Miracle Mirage</option>
+        </select>
+      </div>
 
       <div className="w-full max-w-[825px] flex flex-row items-center justify-center">
         <img
